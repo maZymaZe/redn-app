@@ -22,7 +22,7 @@ function zerofy()
 }
 
 if [[ $# -eq 0 ]]; then
-  device=mlx5_1
+  device=ens3f0
 else
   device=$1
 fi
